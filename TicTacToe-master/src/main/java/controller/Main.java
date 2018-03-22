@@ -7,13 +7,11 @@ import view.GameView;
 import view.console.ConsoleView;
 import view.swing.SwingView;
 
-/**
- * Контроллер
- */
+
 public class Main {
     public static void main(String[] args) {
         Game game = new Game();
-        // Если указан ключ "gui" => графический интерфейс
+
         boolean gui = false;
         for (String s : args)
             if (s.equals("gui")) {
