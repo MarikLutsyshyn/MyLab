@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Состояние ячейки
+ * Стан комірок
  */
 public class CellState {
     private Cell cell = Cell.EMPTY;

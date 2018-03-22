@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Game {
 
-
+/*Старт гри*/
 
     public final CellState[][] field;
 
